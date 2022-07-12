@@ -19,9 +19,6 @@ nav{
     background:linear-gradient(to bottom, rgb(227, 213, 202),rgb(237, 237, 233));
 }
 
-.accordion-button:not(.collapsed){
-    color: rgb(55 65 81);
-}	
 
 #skills, #projects{
     background-color:  rgb(214, 204, 194);
