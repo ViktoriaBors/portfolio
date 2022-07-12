@@ -20,10 +20,12 @@ w-full
 flex flex-wrap
 items-center
 justify-between
-py-4
+py-2
 hover:text-gray-700
 focus:text-gray-700
 shadow-lg
+sm:sticky top-0 
+z-10
 ">
 <div class="w-full items-center justify-between px-6">
 
@@ -49,7 +51,7 @@ shadow-lg
 
     <!-- Links -->
     <div class="flex-grow items-end justify-end hidden sm:flex text-lg" id="navbar">
-        <ul class="navbar-nav flex flex-col pl-2 list-style-none text-black sm:flex-row sm:justify-end">
+        <ul class="navbar-nav flex flex-col pl-2 list-style-none text-black sm:flex-row sm:justify-end text-xl md:text-2xl">
           <li class="nav-item p-1">
             <a class="nav-link hover:text-gray-700 hover:underline underline-offset-2 decoration-2 focus:text-gray-700 sm:px-3" aria-current="page" href="#skills">Skills</a>
           </li>
@@ -93,7 +95,7 @@ shadow-lg
 </section>
 <!-- Skills -->
 <section id="skills" class="text-center text-gray-700 py-5 shadow-2xl shadow-stone-900">
-  <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-3 pb-2">Skills</h2>
+  <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight sm:pt-8 pb-2">Skills</h2>
   <div id="img" class="grid grid-cols-2 justify-items-center md:flex flex-row justify-around items-center text-center">
     <div class="oneGrid p-3">
       <img src="img/html-removebg-preview.png" class="max-h-20" alt="HTML 5">
@@ -122,7 +124,7 @@ shadow-lg
   </div>
 </section>
 <section id="projects" class="text-center text-gray-700 py-5 shadow-2xl shadow-stone-900">
-  <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-3 pb-2">Projects</h2>
+  <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight sm:pt-8 pb-2">Projects</h2>
 <!-- Main Projects -->
   <div class="mb-10 sm:mx-5 md:mx-10 lg:mx-20 md:text-left">
     <div class="block rounded-lg shadow-lg bg-stone-300">
@@ -213,7 +215,7 @@ shadow-lg
 
 <!-- Education -->
 <section id="education" class="text-center text-gray-700 py-5">
-    <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-5">Education</h2>
+    <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-5 sm:pt-8">Education</h2>
     <div class="py-6 mx-6">
 
         <div class="accordion" id="Educationaccordion">
@@ -227,7 +229,7 @@ shadow-lg
                   items-center
                   py-4
                   px-5
-                  text-base text-gray-800 text-left
+                  text-lg text-gray-800 text-left
                   bg-stone-400
                   hover:text-gray-900
                   cursor-pointer"
@@ -254,7 +256,7 @@ shadow-lg
                   items-center
                   py-4
                   px-5
-                  text-base text-gray-800 text-left
+                  text-lg text-gray-800 text-left
                   bg-stone-400
                   hover:text-gray-900
                   cursor-pointer"
@@ -293,7 +295,7 @@ shadow-lg
                   items-center
                   py-4
                   px-5
-                  text-base text-gray-800 text-left
+                  text-lg text-gray-800 text-left
                   bg-stone-400
                   hover:text-gray-900
                   cursor-pointer"
