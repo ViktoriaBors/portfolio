@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.arrow{
+    transform: rotate(270deg);
+}
+
+nav{
+    background-color: rgb(213, 189, 175);
+}
+
+.hero{
+    background-color: rgb(227, 213, 202);
+}
+
+#education{
+    background:linear-gradient(to bottom, rgb(227, 213, 202),rgb(237, 237, 233));
+}
+
+.accordion-button:not(.collapsed){
+    color: rgb(55 65 81);
+}	
+
+#skills, #projects{
+    background-color:  rgb(214, 204, 194);
+}
+
+#contact{
+    background-color: rgb(237, 237, 233);
+}

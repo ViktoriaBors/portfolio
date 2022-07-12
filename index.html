@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktoria Bors-Pajuste</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body class="relative font-serif">
+    <span class="arrow fixed bottom-0 right-0 text-2xl cursor-pointer"> <a href="#">&#10140</a></span>
+<!--NAVBAR-->
+<nav class="
+relative
+w-full
+flex flex-wrap
+items-center
+justify-between
+py-4
+hover:text-gray-700
+focus:text-gray-700
+shadow-lg
+">
+<div class="w-full items-center justify-between px-6">
+
+    <button class="
+        navbar-toggler
+        text-black
+        border-0
+        hover:shadow-none hover:no-underline
+        py-2
+        px-2.5
+        bg-transparent
+        focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+        sm:hidden
+      " type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+    aria-controls="navbar" aria-expanded="false" aria-label="Navigation">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+          class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+          </path>
+        </svg>
+    </button>
+
+    <!-- Links -->
+    <div class="flex-grow items-end justify-end hidden sm:flex text-lg" id="navbar">
+        <ul class="navbar-nav flex flex-col pl-2 list-style-none text-black sm:flex-row sm:justify-end">
+          <li class="nav-item p-1">
+            <a class="nav-link hover:text-gray-700 hover:underline underline-offset-2 decoration-2 focus:text-gray-700 sm:px-3" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link hover:text-gray-700 hover:underline underline-offset-2 decoration-2 focus:text-gray-700 p-0 sm:px-3" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link  hover:text-gray-700 hover:underline underline-offset-2 decoration-2 focus:text-gray-700 p-0 sm:px-3" href="#education">Education</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link hover:text-gray-700 hover:underline underline-offset-2 decoration-2 focus:text-gray-700 p-0 sm:px-3" href="#contact"
+              >Contact me</a>
+          </li>
+        </ul>
+    <!-- Links -->
+    </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="relative overflow-hidden bg-no-repeat bg-cover sm:rounded-bl-full lg:rounded-tr-full" style="background-image: url('img/pexels-pixabay-50570.jpg');
+    height: 600px;">
+      <div class="absolute top-0 right-0 bottom-0 left-0" style="background-color: rgba(0, 0, 0, 0.50);">
+        <div class="flex justify-center items-center h-full">
+          <div class="text-center text-white px-6 md:px-12">
+            <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-8 animate__animated animate__rollIn animate__delay-1s">Viktoria Bors-Pajuste</h1>
+            <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-3">Webdeveloper</h2>
+            <h3 class="text-xl md:text-2xl xl:text-3xl font-bold tracking-tight mb-12 animate__animated animate__swing animate__delay-2s"> and much more...</h3>
+            <div class="list">
+                <ul class="flex flex-col xl:flex-row justify-center items-center w-screen">
+                    <li class="py-2 lg:px-5 font-medium"> <span class="text-lg">&#9935</span> Geologist and Environmental Engineer</li>
+                    <li class="py-2 lg:px-5 font-medium"> <span class="text-lg">&#128300</span> Chemist and Lab Technician</li>
+                    <li class="py-2 lg:px-5 font-medium"> <span class="text-lg">&#129329</span> Wife and mom</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Skills -->
+<section id="skills" class="text-center text-gray-700 py-5 shadow-2xl shadow-stone-900">
+  <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-3 pb-2">Skills</h2>
+  <div id="img" class="grid grid-cols-2 justify-items-center md:flex flex-row justify-around items-center text-center">
+    <div class="oneGrid p-3">
+      <img src="img/html-removebg-preview.png" class="max-h-20" alt="HTML 5">
+    </div>
+    <div class="oneGrid p-3">
+      <img src="img/css-removebg-preview.png" class="max-h-20" alt="CSS 3">
+    </div>
+    <div class="oneGrid p-3">
+      <img src="img/js-removebg-preview.png" class="max-h-20" alt="JavaScript">
+    </div>
+    <div class="oneGrid p-3">
+    <img src="img/sass-removebg-preview.png" class="max-h-16" alt="SASS">
+    </div>
+    <div class="oneGrid p-3">
+      <img src="img/bootstrap-removebg-preview.png" class="max-h-16" alt="Bootstrap 5">
+    </div>
+    <div class="oneGrid p-3">
+      <img src="img/tailwind-removebg-preview.png" class="max-h-20" alt="Tailwind CSS">
+    </div>
+    <div class="oneGrid p-3">
+      <img src="img/responsive-removebg-preview.png" class="max-h-20" alt="Responsive design">
+    </div>
+    <div class="oneGrid p-3">
+      <img src="img/access-removebg-preview.png" class="max-h-20" alt="Web accessibility">
+    </div>
+  </div>
+</section>
+<section id="projects" class="text-center text-gray-700 py-5 shadow-2xl shadow-stone-900">
+  <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-3 pb-2">Projects</h2>
+<!-- Main Projects -->
+  <div class="mb-10 sm:mx-5 md:mx-10 lg:mx-20 md:text-left">
+    <div class="block rounded-lg shadow-lg bg-stone-300">
+      <div class="flex flex-wrap items-center">
+        <div class="grow-0 shrink-0 basis-auto flex flex-col justify-center items-center sm:flex-row w-full md:w-3/12">
+          <img src="img/bows.png" alt="Bow's Cafe - cafe and bookstore for LGBT community"
+            class="w-2/4 md:w-full pt-3 md:p-0 rounded-t-lg md:rounded-tr-none md:rounded-bl-lg" />
+        </div>
+        <div class="grow-0 shrink-0 basis-auto w-full md:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="text-2xl font-bold mb-6">
+              Bow's Cafe webpage
+            </h2>
+            <p class="text-gray-600 mb-6 pb-2">
+              Frontend module exam project about the local LGBT+ community and their gathering place: Buens Cafe (in english Bow's Cafe). I decided to use their concepts and make an alternative webpage for them.
+            </p>
+            <a href="https://examprojekt.vercel.app/" target="_blank"
+            class="inline-block mb-2 px-7 py-3 bg-stone-600 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md hover:bg-stone-800 hover:shadow-lg focus:bg-stone-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-stone-800 active:shadow-lg transition duration-150 ease-in-out"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">Live Site</a>
+              <a href="https://github.com/ViktoriaBors/FrontendExamProjekt" target="_blank"
+              class="inline-block mb-2 px-7 py-3 bg-stone-600 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md hover:bg-stone-800 hover:shadow-lg focus:bg-stone-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-stone-800 active:shadow-lg transition duration-150 ease-in-out"
+              data-mdb-ripple="true" data-mdb-ripple-color="light"> Source code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Other Projects -->
+<div class="mx-10 flex flex-col justify-center items-center sm:grid grid-cols-3 gap-3">
+
+  <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-2 h-72 max-w-xs sm:justify-self-center sm:self-start"
+    style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="dark">
+    <img src="img/kszilas2.png" alt="Kristoffer Szilas personal webpage"
+      class="h-full transition duration-300 ease-linear align-middle" />
+    <a href="https://github.com/ViktoriaBors/kSzilas-git" target="_blank">
+      <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="flex justify-start items-end h-full">
+          <h5 class="text-lg font-bold text-white pb-1 pl-1">K. Szilas Personal Webpage</h5>
+        </div>
+      </div>
+      <div class="hover-overlay">
+        <div
+          class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+          style="background-color: rgba(253, 253, 253, 0.1)"></div>
+      </div>
+    </a>
+  </div>
+
+  <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover  mb-2 h-72 max-w-xs sm:justify-self-center sm:self-start"
+    style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="dark">
+    <img src="img/xmas.png" alt="Christmas Wish List project"
+      class="w-full transition duration-300 ease-linear align-middle" />
+    <a href="https://github.com/ViktoriaBors/xmasWishes"  target="_blank">
+      <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="flex justify-start items-end h-full">
+          <h5 class="text-lg font-bold text-white pb-1 pl-1">Xmas Wish list</h5>
+        </div>
+      </div>
+      <div class="hover-overlay">
+        <div
+          class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+          style="background-color: rgba(253, 253, 253, 0.1)"></div>
+      </div>
+    </a>
+  </div>
+
+  <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-2 h-72 max-w-xs sm:justify-self-center sm:self-start"
+    style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="dark">
+    <img src="img/number.png"  alt="Number guessing game"
+      class=" w-full  transition duration-300 ease-linear align-middle" />
+    <a href="https://github.com/ViktoriaBors/numberGuessGame"  target="_blank">
+      <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+        style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="flex justify-start items-end h-full">
+          <h5 class="text-lg font-bold text-white pb-1 pl-1">Number Guessing Game</h5>
+        </div>
+      </div>
+      <div class="hover-overlay">
+        <div
+          class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+          style="background-color: rgba(253, 253, 253, 0.1)"></div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="text-center text-gray-700 py-5">
+    <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight pt-5">Education</h2>
+    <div class="py-6 mx-6">
+
+        <div class="accordion" id="Educationaccordion">
+
+            <div class="accordion-item shadow-lg shadow-stone-800 bg-stone-200 border border-gray-200">
+              <h2 id="headingOne" 
+                  class="accordion-header mb-0
+                  accordion-button
+                  relative
+                  flex
+                  items-center
+                  w-full
+                  py-4
+                  px-5
+                  text-base text-gray-800 text-left
+                  bg-stone-400
+                  border-0
+                  rounded-none
+                  transition
+                  focus:outline-none
+                  focus:text-gray-900
+                  cursor-pointer"
+                  type="button" aria-controls="accordion" aria-expanded="false" aria-label="Education">
+                  Google IT Support Specialist
+              </h2>
+              <div id="collapseOne" class="accordion-collapse hidden" aria-labelledby="headingOne"
+                data-bs-parent="#Educationaccordion">
+                <div class="accordion-body py-4 px-5">
+                  <p class="text-center font-semibold py-2"> 2022.07. - 2022.10.</p> 
+                  <p class="text-center font-semibold pb-2">Green Fox Academy and Inco Academy</p> 
+                  <p class="text-justify px-4"> Google certified IT support Specialist program runs on Coursera as a self-learning program with mentoring opportunity from Green Fox Academy and Inco Academy (Hungarian company).
+                    The course consists of 5 modules (Technical Support, Bits and Bytes, Operating Systems, IT Infrastructure Services and IT Security), which provide a powerful tool for understanding various network protocols, Linus command lines, Windows operating system and system administration.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item shadow-lg shadow-stone-800 bg-stone-200 border border-gray-200">
+              <h2 id="headingOne" 
+                  class="accordion-header mb-0
+                  accordion-button
+                  relative
+                  flex
+                  items-center
+                  w-full
+                  py-4
+                  px-5
+                  text-base text-gray-800 text-left
+                  bg-stone-400
+                  border-0
+                  rounded-none
+                  transition
+                  focus:outline-none
+                  focus:text-gray-900
+                  cursor-pointer"
+                  type="button" aria-controls="accordion" aria-expanded="false" aria-label="Education">
+                  Full stack developer
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse hidden" aria-labelledby="headingTwo"
+                data-bs-parent="#Educationaccordion">
+                <div class="accordion-body py-4 px-5">
+                  <p class="text-center font-semibold py-2"> 2022.01. - 2022.12.</p> 
+                  <p class="text-center font-semibold pb-2">ProOktatas</p> 
+                  <p class="text-justify px-4 "> One year bootcamp program. Although the bootcamp is only 2 times a week, I spend lot of extra hours learning, reading and practicing alone. The bootcamp provides good guidelines on what to "investigate" further in my free time. The bootcamp programme contians 3 modules:
+                    <ul class="text-left list-disc px-8">
+                      <li>
+                        Frontend module (HTML, CSS, JavaScript, Bootstrap)
+                      </li>
+                      <li>
+                        JavaScript module (basics of JavaScript, Node.Js, Mongo.Db)
+                      </li>
+                      <li>
+                        Backend module (PHP, MySQL)
+                      </li>
+                    </ul>
+                    <p class="text-justify px-4"> Frontend module has been completed with 98% theory exam and the project work got evaluated with the highest grade.</p>
+                    </p>
+                 </div>
+                </div>
+              </div>
+
+            <div class="accordion-item shadow-lg shadow-stone-800 bg-stone-200 border border-gray-200">
+              <h2 id="headingOne" 
+                  class="accordion-header mb-0
+                  accordion-button
+                  relative
+                  flex
+                  items-center
+                  w-full
+                  py-4
+                  px-5
+                  text-base text-gray-800 text-left
+                  bg-stone-400
+                  border-0
+                  rounded-none
+                  transition
+                  focus:outline-none
+                  focus:text-gray-900
+                  cursor-pointer"
+                  type="button" aria-controls="accordion" aria-expanded="false" aria-label="Education">
+                  Geology and Environmental Engineering
+              </h2>
+                <div id="collapseThree" class="accordion-collapse hidden" aria-labelledby="headingThree"
+                  data-bs-parent="#Educationaccordion">
+                   <div class="accordion-body py-4 px-5">
+                    <p class="text-center font-semibold py-2"> 2011. - 2013. and 2013. - 2015.</p> 
+                    <p class="text-center font-semibold pb-2">Eotvos Lorand University and Aalborg University</p> 
+                    <p class="text-justify px-4"> Master Degree programmes has provided solid foundation to solve environmental and geological problems. </p>
+                   </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+  <section id="contact" class="text-center text-gray-700 py-5">
+    <div class="relative overflow-hidden bg-no-repeat bg-cover m-6"
+      style="background-image: url(img/pexels-martins-krastins-838981.jpg); height: 200px;">
+    </div>
+    <div class="container text-gray-700 px-4 mx-auto">
+      <div class="rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6"
+        style="margin-top: -150px; background: rgba(255, 255, 255, 0.60); backdrop-filter: blur(30px);">
+        <div class="flex flex-col md:flex-row justify-around items-center">
+          <div class="text-center text-base my-3">
+            <i class="fa fa-globe text-3xl"></i>
+            <h6>Denmark, North Jutland</h6>
+          </div>
+          <div class="text-center text-base my-3">
+            <i class="fa fa-envelope text-3xl"></i>
+            <h6>viktoria.pajuste@gmail.com</h6>
+          </div>
+          <div class="text-center text-base my-3">
+            <a href="https://github.com/ViktoriaBors" target="_blank"><i class="fa fa-github text-3xl cursor-pointer hover:text-stone-500"></i> </a>
+            <h6>GitHub</h6>
+          </div>
+          <div class="text-center text-base my-3">
+            <a href="https://www.linkedin.com/in/viktoria-b-pajuste/" target="_blank"><i class="fa fa-linkedin text-3xl cursor-pointer hover:text-stone-500"></i> </a>
+            <h6>LinkedIn</h6>
+          </div>
+        </div>
+      </div>        
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
