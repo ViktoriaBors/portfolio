@@ -15,7 +15,7 @@ nav{
     background-color: rgb(227, 213, 202);
 }
 
-#education{
+#education, #about{
     background:linear-gradient(to bottom, rgb(227, 213, 202),rgb(237, 237, 233));
 }
 
